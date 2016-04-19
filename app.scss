@@ -1,0 +1,68 @@
+.container {
+/*width:auto;*/
+margin: 0 auto;
+position:relative;
+height: 100%;
+}
+
+.banner {
+  height: 100%;
+  background:url("images/vision.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-position: center center;*/
+  /*background-attachment: fixed;*/
+  position: relative;
+}
+
+/*.text-center{
+  position: relative;
+}*/
+.know_more{
+  color: black;
+  margin-bottom: 1px;
+  font-weight: 300;
+  padding: 0.3em 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  position: absolute;
+  font-size: 2.5vmin;
+  top: 85%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: transparent;
+  &, &:hover, &:visited, &:active {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+.team-section{
+  height: 100%;
+  background-color: #EE7F09;
+}
+.lang-section{
+  height: 100%;
+  background-color: #706B6B;
+}
+.contact-section{
+  height: 100%;
+  background-color: #EE7F09;
+}
+
+#team{
+  // color: #F2F1EF;
+  padding: 5vh 0 10vh;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  box-shadow: 0px 10px 30px 0px #22313F;
+  // position: relative;
+  overflow: auto;
+  z-index: 40;
+}
+#team .member{
+  text-align: center;
+}
